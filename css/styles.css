@@ -13,9 +13,6 @@ body {
 
 h1 {
   font-size: 5rem;
-  /* 100% = 16px */
-  /* 1em = 16px  */
-  /* 1rem = 16px it is recommended beacuse it doesnt effect by other font size style  */
   font-family: "Sacramento", cursive;
   margin: 50px auto 0 auto;
   color: #66bfbf;
@@ -89,17 +86,6 @@ hr {
   float: left;
   margin-right: 30px;
 }
-
-/* Use float only when it is necessssary  
-
-Don't use it for positioning the element
-use position property like absolute, relative postioning propety for postioning the element
-*/
-
-/* .skill-detail{
-  clear: left;
-  to remove the effect of float 
-} */
 
 
 /* Contact section  */
